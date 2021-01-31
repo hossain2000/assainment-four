@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background:url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+    background-size: cover;
+}
+.a-logo{
+    text-decoration: none;  
+}
+.a-logo img{
+    margin-right: 5px;
+}
+.done-btn {
+    font-size: 62px;
+    text-align: center;
+    color: #e54dc4;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+}
+.booking-form{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 26px;
+    border-radius: 5px;
+    float: left;
+    line-height: 16px;
+    margin-top: 40px;
+}
+.booking-form h3{
+    margin: 10px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.booking-form  .input-group{
+    margin: 10px 0;
+}
+.f-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp-width{
+    min-width: 300px;
+}
+.plus-minus-btn{
+    color: #e54dc4;
+    padding: 2px;
+    margin-top: 28px;
+    word-spacing: 26px;
+    font-size: 20px;
+}
+.booking-form  .calculations{
+    margin: 10px 0;
+}
+.booking-form  .calculations p{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#bookNow{
+    background: #e54dc4;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.booking-form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #be31b71a;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.booking-form .inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.booking-content{
+    color: #fff;
+    width: 80%;
+}
+.booking-content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.invoice {
+    text-align: center;
+    background: #e54dc4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+.invoice a {
+    color: white;
+    text-decoration: none;
+}
+.invoice:hover {
+    cursor: pointer;
+    background: #da51bc;
+}
+.btn-style{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color: #e44ec5;
+}
+.done-close {
+    color: #e54dc4;
+    background: #e54dc426;
+    padding: 8px 11px;
+    border-radius: 4px;
+    width: 53px;
+    transition: 0.3s;
+    text-align: center;
+}
+.done-close:hover {
+    background: #e54dc4;
+    color: white;
+    cursor: pointer;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+}
+#plus,
+#plusOne{
+    cursor: pointer;
+    background-color: #f8eaf8;
+    border-radius: 10%;
+    padding: 7px 11px;
+    font-size: 16px;
+}
+
+#minus,
+#minusOne{
+    background-color: #f8eaf8;
+    border-radius: 10%;
+    padding: 7px 11px;
+    font-size: 16px;
+}
+#bookNow:hover {
+    background: #ce3cbc;
+}
+.new-width{
+    width: 400px;
+    margin-top: 5%;
+    margin-left: 38%;
+}
+
+#confirmation{
+    display: none;
+}
